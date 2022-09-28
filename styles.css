@@ -15,12 +15,26 @@
 
 html {
     font-family: "Lucida Sans", sans-serif;
+    background-image: url("background.png");
+    background-size: 100% 100%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(229, 213, 37);
+    font-size: large;
+}
+
+.links_name {
+    color: white
 }
 
 .header {
-    background-color: #9933cc;
-    color: #ffffff;
-    padding: 15px;
+    background-color: #002a52;
+    color: rgb(255, 149, 0);
+    padding: 5px;
+    align-items: center;
+    text-align-last: center;
 }
 
 .menu ul {
@@ -32,17 +46,17 @@ html {
 .menu li {
     padding: 8px;
     margin-bottom: 7px;
-    background-color: #33b5e5;
+    background-color: #002a52;
     color: #ffffff;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .menu li:hover {
-    background-color: #0099cc;
+    background-color: #002a52;
 }
 
 .aside {
-    background-color: #33b5e5;
+    background-color: #002a52;
     padding: 15px;
     color: #ffffff;
     text-align: center;
@@ -51,11 +65,11 @@ html {
 }
 
 .footer {
-    background-color: #0099cc;
-    color: #ffffff;
+    background-color: #002a52;
     text-align: center;
-    font-size: 12px;
-    padding: 15px;
+    padding: 10px 15px;
+    color: rgb(255, 149, 0);
+    font-size: 30px;
 }
 
 /* For mobile phones: */
