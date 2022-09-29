@@ -15,13 +15,14 @@
 
 html {
     font-family: "Lucida Sans", sans-serif;
-    background-image: url("background.png");
-    background-size: 100% 100%;
+    background-color: dimgrey;
+    /* background-image: url("background.png");
+    background-size: 100% 100%; */
 }
 
 a {
     text-decoration: none;
-    color: rgb(229, 213, 37);
+    color: rgb(255, 255, 255);
     font-size: large;
 }
 
@@ -31,10 +32,11 @@ a {
 
 .header {
     background-color: #002a52;
-    color: rgb(255, 149, 0);
+    color: orange;
     padding: 5px;
     align-items: center;
     text-align-last: center;
+    font-size: x-large;
 }
 
 .menu ul {
@@ -52,7 +54,7 @@ a {
 }
 
 .menu li:hover {
-    background-color: #002a52;
+    background-color: rgb(25, 50, 112)
 }
 
 .aside {
@@ -68,7 +70,7 @@ a {
     background-color: #002a52;
     text-align: center;
     padding: 10px 15px;
-    color: rgb(255, 149, 0);
+    color: crimson;
     font-size: 30px;
 }
 
